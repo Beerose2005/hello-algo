@@ -309,6 +309,12 @@
     }
     ```
 
+=== "Kotlin"
+
+    ```kotlin title=""
+
+    ```
+
 === "Zig"
 
     ```zig title=""
@@ -455,6 +461,12 @@
     }
     ```
 
+=== "Kotlin"
+
+    ```kotlin title=""
+
+    ```
+
 === "Zig"
 
     ```zig title=""
@@ -475,9 +487,10 @@
         for _ in range(n):
             function()
 
-    def recur(n: int) -> int:
+    def recur(n: int):
         """递归的空间复杂度为 O(n)"""
-        if n == 1: return
+        if n == 1:
+            return
         return recur(n - 1)
     ```
 
@@ -690,6 +703,12 @@
         if (n == 1) return;
         return recur(n - 1);
     }
+    ```
+
+=== "Kotlin"
+
+    ```kotlin title=""
+
     ```
 
 === "Zig"
